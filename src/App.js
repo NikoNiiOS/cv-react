@@ -1,6 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
+import TopScrollButton from "./components/topScroll";
+import UserGithub from "./components/github";
 import Accueil from "./pages/accueil";
 import Services from "./pages/services";
 import Realisations from "./pages/realisations";
@@ -19,7 +21,9 @@ function App() {
           <Route path="/blog" element ={<Blog/>}/>
           <Route path="/contact" element ={<Contact/>}/>
           <Route path="/mentions" element ={<Mentions/>}/>
+          <Route path="/user" element ={<UserGithub/>}/>
         </Routes>
+        <TopScrollButton />
       </HelmetProvider>
     </div>
   );
