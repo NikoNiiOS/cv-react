@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Web host: https://portfoliojd.alwaysdata.net/ (not working after several tries)
+
 ## Available Scripts
 
 In the project directory, you can run:
