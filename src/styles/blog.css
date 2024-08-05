@@ -1,0 +1,84 @@
+.titleBlog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.titleBlog h2 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.titleBlog p::after {
+    content: "";
+    display: flex;
+    padding-top: 0.8rem;
+    margin: auto;
+    width: 12%;
+    border-bottom: 4px solid #0d6efd;
+}
+
+.box-allBlog {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 50px;
+}
+  
+.blog {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-bottom: 10px;
+}
+  
+.blog p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+}
+
+.btn-primary {
+    margin-top: 0.5rem;
+    width: 22%;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.date {
+    border-top: 1px solid #ddd9d9;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 0.8rem;
+    background-color: #eee;
+    margin-bottom: 0;
+    padding-left: 20px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.blog-box {
+    padding-top: 0.5rem;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    .btn-primary {
+      width: 22%;
+    }
+}
+
+@media (min-width: 992px) {
+    .blog-box {
+      max-width: 30%;
+      margin-left: 30px;
+      padding-top: 20px;
+    }
+  
+    .btn-primary {
+      width: 115px;
+    }
+}
