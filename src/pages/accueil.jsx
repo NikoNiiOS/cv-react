@@ -53,7 +53,7 @@ function Accueil(){
                             </article>
                             <article className="col-12 col-md-6">
                                 <img
-                                    src="../../public/img/john-doe-about.jpg"
+                                    src="../../img/john-doe-about.jpg"
                                     alt="john doe devant son ordinateur"
                                     className="img-about"
                                 />
