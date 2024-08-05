@@ -62,6 +62,7 @@
     border-bottom-right-radius: 5%;
 }
 
+/* MEDIA QUERIES */
 @media (min-width: 768px) {
     .projet {
       padding-top: 30px;
